@@ -13,7 +13,7 @@
 <ul>
 
 <li>You get to roll each die once per game. Once you roll it, it'll disappear.</li>
-<li>Your goal is to roll 42 (or as close as you can get to it).</li>
+<li>Your goal is to roll 42. If the sum of your rolls is between 39-42, you win!</li>
 <li>If you roll over 42, you lose.</li>
 <li>Good luck!</li>
 
@@ -25,12 +25,12 @@
 <input type="button" value="roll 6 sided die" onclick="this.style.visibility= 'hidden';(roll(1,6))"> <br><br>
 <input type="button" value="roll 8 sided die" onclick="this.style.visibility= 'hidden';(roll(1,8))"> <br><br>
 <input type="button" value="roll 10 sided die" onclick="this.style.visibility= 'hidden';(roll(1,10))"> <br><br>
-<input type="button" value="roll 12 sided die" onclick="this.style.visibility= 'hidden';(roll(1,12))"><br><br>
+<input type="button" value="roll 12 sided die" onclick="this.style.visibility= 'hidden';(roll(1,12))"> <br><br>
 <input type="button" value="roll 20 sided die" onclick="this.style.visibility= 'hidden';(roll(1,20))">
 
 
 
-
+<span id="total"/></span>
 
 
 <script src=dicegame.js></script>
