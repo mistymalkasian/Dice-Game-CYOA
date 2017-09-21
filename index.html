@@ -8,7 +8,7 @@
 <br><br><br><br>
 
 <body>
-<h3>Welcome! This game is called "Better Than Nothing."</h3> <br><br><br><br>
+<h3>Welcome! This game is called "Better Than Nothing."</h3> <br><br><br>
 
 <p>Rules:</p>
 
@@ -19,22 +19,21 @@
 <li>If you roll exactly 42, you REALLY win, and you get an awesome surprise!</li>
 <li>If you roll over 42, you fail.</li>
 <li>If you roll less than 39, you REALLY fail, and you get a terrible surprise.</li>
+<li>When you've used all your rolls, click the final button!</li>
 <li>Good luck!</li>
 
 </ul>
 
 
 <strong>Click to roll!:</strong> <br><br>
-<input type="button" value="roll 4 sided die" onclick="this.style.visibility= 'hidden';(roll(1,4))"> <br><br>
-<input type="button" value="roll 6 sided die" onclick="this.style.visibility= 'hidden';(roll(1,6))"> <br><br>
-<input type="button" value="roll 8 sided die" onclick="this.style.visibility= 'hidden';(roll(1,8))"> <br><br>
-<input type="button" value="roll 10 sided die" onclick="this.style.visibility= 'hidden';(roll(1,10))"> <br><br>
-<input type="button" value="roll 12 sided die" onclick="this.style.visibility= 'hidden';(roll(1,12))"> <br><br>
-<input type="button" value="roll 20 sided die" onclick="this.style.visibility= 'hidden';(roll(1,20))">
+<input type="button" value="roll 4 sided die"  onclick="this.style.visibility= 'hidden';(roll(1,4))"> <br><br>
+<input type="button" value="roll 6 sided die"  onclick="this.style.visibility= 'hidden';(roll(1,6))"> <br><br>
+<input type="button" value="roll 8 sided die"  onclick="this.style.visibility= 'hidden';(roll(1,8))"> <br><br>
+<input type="button" value="roll 10 sided die" onclick="this.style.visibility= 'hidden';(roll(1,10))"><br><br>
+<input type="button" value="roll 12 sided die" onclick="this.style.visibility= 'hidden';(roll(1,12))"><br><br>
+<input type="button" value="roll 20 sided die" onclick="this.style.visibility= 'hidden';(roll(1,20))"><br><br>
+<input type="button" value="click here last!"  onclick= "determineOutcome(addedRollTotals)" />
 
-
-
-<span id="total"/></span>
 
 
 <script src=dicegame.js></script>
