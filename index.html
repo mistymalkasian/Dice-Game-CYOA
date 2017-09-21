@@ -1,35 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-
-<!-- <title>The Wayfarer</title>
-
-<center><h2>The Wayfarer</h2>
-<h3>By Misty Malkasian</h3></center> -->
-
-
+<meta charset="utf-8">
+<title>Dice Game</title>
 </head>
 
 <body>
+<h3>Welcome!</h3>
 
-<!-- <p>Your<script>characterName</script> eyes slowly open.<br><br> The first thing you’re aware of is that you’re lying on your back on the hard, cracked dirt. <br>How did you get here? With all your energy, you heave yourself into a sitting position.<br> Your head throbs. Dry, brown grass pushes through the large cracks in the earth, and the song of those annoying, endlessly droning insects is ceaseless. <br>You start to stand, and realize your hand is clutching something rather tightly. You open it.<br> Ouch, that hurt—your hand must have been clenched like that for quite some time.<br> You glance at the small, brown objects and your heart leaps. Your dice!<br> (DESCRIBE DICE HERE) Now at least you have some chance of survival in this strange world.<br>You look around, trying to get your bearings. You seem to be in the middle of a field or what once was a field, anyway.<br> There is a black smudge on the horizon, and after studying it for some time, you realize it's smoke. A city?<br> At any rate, it's the only point of interest in this odd place, everything else is desolation.<br> Out of habit, you grab your <strong>SIX-SIDED DIE</strong>, but then quickly laugh at yourself. There is only one choice to be made here.<br> You drop all your dice into your shirt's special dice pocket...</p>
+<p>Rules:</p>
 
-<button type="button" onclick="document.write('You are heading for the city.'')">...and head for the smoke.</button> -->
+<ul>
 
+<li>You get to roll each die once per game. Once you roll it, it'll disappear.</li>
+<li>Your goal is to roll 42 (or as close as you can get to it).</li>
+<li>If you roll over 42, you lose.</li>
+<li>Good luck!</li>
 
-
-
-
-
-
-
-<script src= 'dicegame.js'></script>
-
+</ul>
 
 
+<strong>These are the dice you may choose from:</strong> <br><br>
+<input type="button" value="roll 4 sided die" onclick="(roll(1,4))"> <br><br>
+<input type="button" value="roll 6 sided die" onclick="(roll(1,6))"> <br><br>
+<input type="button" value="roll 8 sided die" onclick="(roll(1,8))"> <br><br>
+<input type="button" value="roll 10 sided die" onclick="(roll(1,10))"> <br><br>
+<input type="button" value="roll 12 sided die" onclick="(roll(1,12))"><br><br>
+<input type="button" value="roll 20 sided die" onclick="(roll(1,20))">
+
+
+
+
+
+
+<script src=dicegame.js></script>
 </body>
-
-
-
 </html>
